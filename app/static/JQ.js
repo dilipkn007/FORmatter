@@ -130,8 +130,8 @@ $(document).ready(function () {
 
         // Optionally, provide visual feedback or a message to the user
           var x = document.getElementById("snackbar");
-  x.className = "show";
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+          x.className = "show";
+          setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
     });
 
 });
