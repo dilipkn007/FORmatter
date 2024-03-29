@@ -96,7 +96,7 @@ $(document).ready(function () {
                 if (this.checked) {
                     container.addClass('checked');
                     textarea.addClass('checked');
-                    textarea.css({ 'height': '500px' });
+                    textarea.css({ 'height': '500px' ,'color':'white'});
                     hide_format_button.addClass('checked');
                 } else {
                     container.removeClass('checked');
